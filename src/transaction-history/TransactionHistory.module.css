@@ -1,0 +1,22 @@
+.transactionHistory {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 3px;
+  border: 1px solid rgba(236, 241, 244);
+}
+
+.transactionHistory th {
+  background-color: rgba(0, 188, 213);
+  padding: 10px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.transactionHistory .listContent:nth-child(even) {
+  background: rgba(236, 241, 244);
+}
+
+.transactionHistory td {
+  padding: 10px 0;
+}
