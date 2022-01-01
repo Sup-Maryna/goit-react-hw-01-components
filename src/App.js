@@ -22,7 +22,7 @@ function App() {
       <h2>Friend List</h2>
       <FriendList friends={friends} />
       <h2>Statistics</h2>
-      <Statistics stats={data} />
+      <Statistics title="Upload stats" stats={data} />
       <h2>Transaction History</h2>
       <TransactionHistory items={transactions} />
     </div>
